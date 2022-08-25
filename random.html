@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"-->
+    <link rel="stylesheet" href="http://runando.es/assets/css/style.css?v=813123393814a2067c16a27568907083c993b594">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>runando · random | runando web</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="runando · about" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Site runando" />
+<meta property="og:description" content="Site runando" />
+<link rel="canonical" href="http://runando.es/about/" />
+<meta property="og:url" content="http://runando.es/about/" />
+<meta property="og:site_name" content="runando web" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="runando · about" />
+<script type="application/ld+json">
+{"description":"Site runando","url":"http://runando.es/about/","@type":"WebSite","headline":"runando · about","name":"runando web","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- random -->
+               
+                    
+    <style>
+#display_d {
+  font-size: 12px;
+  background: rgba(211,211,211,.3);
+  border-radius: 15px;
+  margin-left:10%;
+  float:right;
+  clear:both;
+  margin-right:45%;
+  padding:20px;
+  border-bottom:2px solid #ffffff;
+  width:100px;
+ }
+
+</style>
+                    <script>
+  window.console = window.console || function(t) {};
+</script>
+                    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>    
+    
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>web</h1>
+        </a>
+        <h2>Site runando</h2>
+
+        <section id="downloads">
+          
+          <a href="https://github.com/runando/web" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h2 id="runando--about">runando · about</h2>
+<p><a href="https://runando.github.io/web/">home</a> | <a href="https://runando.github.io/web/about/">about</a> | <a href="https://runando.github.io/web/random.html">random</a></p>
+
+<p>Random Number Generator.</p>
+
+<p>
+  <div class="row">			
+		<div id="display_d">---<br/>generated</div>
+                            <div class="table_r">                              
+                                <label>Min</label>
+                                <div class="input-group">
+                                    <input id="min" type="number" class="form-control form-control-lg mb-2 text-center" placeholder="Enter a number" style="border-radius: 5px;">
+                                    </div>
+                                    <br>
+                                        <label>Max</label>
+                                        <div class="input-group">
+                                            <input id="max" type="number" class="form-control form-control-lg mb-2 text-center" placeholder="Enter a number" style="border-radius: 5px;">
+                                            </div>
+                                            <br>
+                                                <button class="btn btn-primary" onclick="generateRandomNumber();"> Generate</button>
+                                                
+                                            </div>
+                                        </div>
+        </p>
+
+      </section>
+    </div>
+ <script id="rendered-js">
+function generateRandomNumber() {
+  var docMin = document.getElementById('min');
+  var docMax = document.getElementById('max');
+  if (docMin.value == '' || docMin.value < 0) {
+    docMin.value = 0;
+  }
+  if (docMax.value == '' || docMax.value < 0) {
+    docMax.value = 0;
+  }
+  var min = parseInt(docMin.value);  
+  var max = parseInt(docMax.value);
+  
+  var rand = Math.floor(Math.random() * (max - min + 1)) + min;
+    
+  document.getElementById('display_d').innerText = rand + '\ngenerated';
+}
+//# sourceURL=pen.js
+    </script>
+    
+  </body>
+</html>
