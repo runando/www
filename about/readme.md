@@ -5,8 +5,6 @@ Graduete of Physical Sciences , photography enthusiast, athletics lover and soft
 
 If you want to follow me, you can do it through [twitter](https://twitter.com/runando), or in some of the fashionable social networks, it is up to you to find me and / or follow me.
 
-![runando](https://github.com/runando/www/blob/master/about/ZZdP4ZHKS6qelIwvEcq1__647e33_2.jpg?raw=true)
-
 [^1]: Skills
     
     >Graduete of Physical Sciences , **University of Extremadura (Spain)**
