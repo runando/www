@@ -13,6 +13,6 @@ If you want to follow me, you can do it through [twitter](https://twitter.com/ru
     
     >Enterprise Java Teams Certification for Designers , **Sun**
     
-    >More than 15 years as a developer and analyst 
+    >More than 19 years as a developer and analyst 
     
     ```JEE``` ```JAVA``` ```Python``` ```Go language``` ```PHP``` ```Javascript``` ```DDD``` ```TDD``` ```Spring``` ```Spring boot``` ```Spring MVC``` ```Spring JPA``` ```Hibernate``` ```OpenJPA``` ```JAX-RS``` ```OpenAPI``` ```Enterprise Javabeans``` ```JMS``` ```WebSockets``` ```WebWorkers``` ```WSDL``` ```OpenLayers``` ```VueJS``` ```AngularJS``` ```ExtJS``` ```JSF``` ```Icefaces``` ```Vaadin``` ```SWT``` ```Wildfly``` ```JBOSS``` ```Weblogic``` ```Eclipse``` ```Visual Studio Code``` ```Moodle``` ```Wordpress``` ```Postgres``` ```Oracle``` ```SQLServer``` ```MySQL``` and more
